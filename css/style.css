@@ -1,0 +1,126 @@
+/*ESTILOS RESET*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    display: inline-block;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+}
+
+a{
+    text-decoration: none ;
+}
+
+/*////////////////////////////////////////////////////*/
+
+/*ESTILOS BODY*/
+
+#body{
+    max-width: 100%;
+}
+
+
+
+/*ESTILOS HEADER*/
+#header{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(60deg, rgba(14,15,19,1) 0%, rgba(2,115,115,1) 50%, rgba(4,191,173,1) 100%);
+    position: fixed;
+}
+
+.navLogo{
+    width: 90px;
+    position: relative;
+    top: 15px;
+    left: 50px;
+}
+
+/* Nota: Sacar la posicion absoluta cuando aplique Flexbox*/
+#nav{
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    position: absolute;
+    top: 35px;
+}
+
+
+
+#nav a {
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid white;
+}
+
+
+/*ESTILOS MAIN = INDEX*/
+#main{
+    max-width: 1400px;
+    margin: 0 auto ;
+    padding-top: 100px;
+}
+
+/*MAIN INDEX IZQUIERDO*/
+/*Recordatorio sacar las posiciones relativas cuando aplique Flexbox*/
+
+.mainIzquierdo {
+    position: relative;
+    top: 200px;
+}
+
+.mainSeba_fondo{
+    width: 500px;
+    height: 500px;
+}
+
+/*MAIN INDEX DERECHO*/
+/*Recordatorio sacar las posiciones relativas cuando aplique Flexbox*/
+
+.mainDerecho {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 800px;
+    bottom: 325px;
+}
+
+/*ESTILOS FOOTER*/
+/*Recordatorio sacar las posiciones relativas cuando aplique Flexbox*/
+
+#footer {
+    width: 100%;
+    height: 120px; ;
+    background: linear-gradient(234deg, rgba(2,115,115,1) 0%, rgba(151,157,166,1) 25%, rgba(193,212,217,1) 100%)
+}
+
+.footerNav {
+    text-align: center;
+    position: relative;
+    top: 20px ;
+}
+
+.footerNav-copy {
+    font-size: 10px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+.footerRedes {
+    text-align: right; 
+    font-size: 30px;
+    position: relative;
+    bottom: 15px;
+    right: 15px;
+}
